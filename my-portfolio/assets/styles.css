@@ -1,0 +1,60 @@
+body, html {
+    height: 100%;
+    font-family: 'Jost', serif !important;
+    font-size: 48px !important;
+  }
+
+.main-page{
+    background-image: url(./images/n-n-BtbjCFUvBXs-unsplash.jpg);
+    height: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-navbar{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color: black;
+}
+
+.navbar-brand{
+    color: midnightblue;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+
+/* .image-section{
+    background-image: url(./images/IMG_20210101_163658.jpg);
+    border-radius: 50%;
+    height: 500px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 50px;
+    color: navy;
+}
+
+.sub-heading{
+    font-variant-caps: all-small-caps;
+    font-size: 16px;
+}
+
+.introduction-section{
+    margin-top: 3.2rem;
+}
