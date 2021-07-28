@@ -1,11 +1,9 @@
 body, html {
     height: 100%;
-    font-family: 'Jost', serif !important;
-    font-size: 48px !important;
   }
 
 .main-page{
-    background-image: url(./images/n-n-BtbjCFUvBXs-unsplash.jpg);
+    background-image: url(./images/fakurian-design-UiiHVEyxtyA-unsplash.jpg);
     height: inherit;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,26 +20,27 @@ body, html {
 .navbar-brand{
     color: midnightblue;
     text-shadow: 4px 4px 4px #aaa;
+    font-family: 'Jost', serif !important;
+    font-size: 20px !important;
 }
 
 .navbar-brand:hover{
     color: black;
 }
 
-/* .image-section{
-    background-image: url(./images/IMG_20210101_163658.jpg);
-    border-radius: 50%;
-    height: 500px;
-    width: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
 img{
     border-radius: 50%;
     height: 200px;
     width: 200px;
+}
+
+.image-section{
+    background-image: url(./images/download.png);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
 }
 
 .heading{
@@ -51,10 +50,46 @@ img{
 }
 
 .sub-heading{
-    font-variant-caps: all-small-caps;
     font-size: 16px;
 }
 
 .introduction-section{
-    margin-top: 3.2rem;
+    margin-top: 19.2rem;
+}
+
+.hire-me-btn{
+    color:white;
+    background-color: royalblue;
+    border-radius: 18px !important;
+    width: 100px;
+}
+
+.cv-btn:hover{
+    color: white !important;
+    background-color: royalblue;
+    border-radius: 18px !important;
+    margin-left: 1.5rem;
+    border-color:royalblue !important;
+}
+.hire-me-btn:hover{
+    color: royalblue !important;
+    background-color: white;
+    border-radius: 18px;
+    width: 100px;
+    transition: 0.3s;
+    border-color: royalblue;
+}
+
+.cv-btn{
+    color: royalblue;
+    background-color: white;
+    border-radius: 18px !important;
+    transition: 0.3s;
+    border-color: royalblue;
+    margin-left: 1.5rem;
+    border-color:royalblue !important;
+}
+
+.buttons{
+    display: flex;
 }
