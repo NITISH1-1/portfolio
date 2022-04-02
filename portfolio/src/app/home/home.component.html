@@ -1,8 +1,117 @@
-<div class="home-wrapper">
-  <div class="flex">
-    <div class="col-12">
-      <div class="col-6">Project</div>
-      <div class="col-6">Home</div>
+<div class="header-wrapper fixed w-full">
+  <div class="col-12 flex">
+    <div class="col-6 flex">
+      <div class="col-3">
+        <a href="https://www.linkedin.com/in/iamnitishrao" target="_blank" class="cursor-pointer">
+          <i class="pi pi-linkedin text-4xl "></i>
+        </a>
+      </div>
+      <div class="col-3">
+        <a href="https://github.com/NITISH1-1" target="_blank" class="cursor-pointer text-900">
+          <i class="pi pi-github text-4xl"></i>
+        </a>
+      </div>
+      <div class="col-3">
+        <a href="../../assets/Nitish Rao(Resume) (3).pdf" class="text-900 cursor-pointer" download>
+          <i class="pi pi-book text-4xl"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-6 flex align-items-end justify-content-end">
+      <div class="col-3">
+        <span class="text-4xl cursor-pointer">Journey</span>
+      </div>
+      <div class="col-3">
+        <span class="text-4xl cursor-pointer">Projects</span>
+      </div>
+      <div class="col-3">
+        <span class="text-4xl cursor-pointer">Blogs</span>
+      </div>
     </div>
   </div>
+</div>
+
+<div class="">
+  <div class="body-wrapper w-full flex justify-content-center align-items-center">
+    <div>
+      <div class="text-8xl">
+        Hey There!
+      </div>
+      <div class=" name flex">
+        <h1 class="text-8xl" data-text="I'm">
+          I'm
+        </h1>
+        <h1 class="text-8xl ml-4" data-text="Nitish">
+          Nitish
+        </h1>
+        <h1 class="text-8xl ml-4" data-text="Rao">
+          Rao
+        </h1>
+      </div>
+      <div class="text-4xl">
+        A Software Engineer by profession
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="lines">
+      <div class="circle"></div>
+    </div>
+  </div>  
+</div>
+
+<div>
+  <div class="footer-wrapper h-23rem col-12 flex">
+    <div class="col-6  form-wrapper">
+      <div class="pl-3">
+        <h2>
+          Let's have a conversation! Contact Me
+        </h2>
+      </div>
+      <div>
+        <form [formGroup]="profileForm">
+          <div class="col-12 flex">
+            <div class=" col-6 form-group">
+              <label for="">First Name</label>
+              <input class="w-full form-control" formControlName="firstName" type="text" pInputText />
+            </div>
+            <div class="col-6 form-group">
+              <label for="">Last Name</label>
+              <input class="w-full form-control" type="text" pInputText />
+            </div>
+          </div>
+          <div class="col-12 flex">
+            <div class="col-6 form-group">
+              <label for="">E-mail</label>
+              <input class="w-full form-control" type="text" pInputText />
+            </div>
+            <div class="col-6 form-group">
+              <label for="">Contact No.</label>
+              <input class="w-full form-control" type="text" pInputText />
+            </div>
+          </div>
+          <div class="col-12 flex">
+            <div class="col-12 form-group">
+              <label for="">Wanna right something?</label>
+              <textarea class="w-full form-control" type="text" pInputText></textarea>
+            </div>
+            
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="col-6 actions-wrapper flex-column-reverse flex justify-content-start align-items-end">
+      <div>
+        <li class="links text-3xl list-none">
+          <i class="pi pi-phone"></i> +91-7011088270</li>
+          <li class="links text-3xl list-none">
+             <i class="pi pi-google pr-1"></i><a class="text-900" href="mailto:nitish.rao.101@gmail.com">nitish.rao.101@gmail.com</a> </li>
+      </div>
+  </div>
+  </div>
+  
+</div>
+<div class="flex justify-content-center align-items-center">
+  Made with <i class="pi pl-2 pr-2 pi-heart-fill"></i> By Nitish Rao
 </div>

@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import {InputTextModule} from 'primeng/inputtext';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { AboutComponent } from './about/about.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule,
+    InputTextModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
