@@ -7,13 +7,16 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import {InputTextModule} from 'primeng/inputtext';
+import { JourneyModule } from './journey/journey.module';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
@@ -21,6 +24,7 @@ import {InputTextModule} from 'primeng/inputtext';
     ReactiveFormsModule,
     FormsModule,
     InputTextModule,
+    JourneyModule
   ],
   providers: [],
   bootstrap: [AppComponent]

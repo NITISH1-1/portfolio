@@ -5,7 +5,8 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'about', component: AboutComponent }
+  { path: 'about', component: AboutComponent },
+  { path: "journey", loadChildren: () => import('./journey/journey.module').then(m => m.JourneyModule) },
 ];
 
 @NgModule({
