@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { routes } from './journey-routing.module';
+import { MatIconModule } from '@angular/material/icon';
 
 
 
@@ -8,6 +9,7 @@ import { routes } from './journey-routing.module';
   declarations: [],
   imports: [
     CommonModule,
+    MatIconModule,
     routes
   ]
 })
