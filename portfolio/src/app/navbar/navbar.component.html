@@ -5,6 +5,8 @@
         <a
           [href]="'/'"
           class="text-900 cursor-pointer"
+          [pTooltip]="tooltipTexts.home"
+          tooltipPosition="bottom"
         >
           <i class="pi pi-home text-4xl"></i>
         </a>
@@ -14,6 +16,8 @@
           href="https://www.linkedin.com/in/iamnitishrao"
           target="_blank"
           class="cursor-pointer"
+          [pTooltip]="tooltipTexts.linkedIn"
+          tooltipPosition="bottom"
         >
           <i class="pi pi-linkedin text-4xl"></i>
         </a>
@@ -23,6 +27,8 @@
           href="https://github.com/NITISH1-1"
           target="_blank"
           class="cursor-pointer text-900"
+          [pTooltip]="tooltipTexts.github"
+          tooltipPosition="bottom"
         >
           <i class="pi pi-github text-4xl"></i>
         </a>
@@ -32,6 +38,8 @@
           href="../../assets/Nitish Rao(Resume) (3).pdf"
           class="text-900 cursor-pointer"
           download
+          [pTooltip]="tooltipTexts.resume"
+          tooltipPosition="bottom"
         >
           <i class="pi pi-book text-4xl"></i>
         </a>
@@ -46,7 +54,7 @@
         <span class="text-4xl cursor-pointer">Projects</span>
       </div>
       <div class="col-3">
-        <span class="text-4xl cursor-pointer">Blogs</span>
+        <span (click)="routeTo('blogs')" class="text-4xl cursor-pointer">Blogs</span>
       </div>
     </div>
   </div>

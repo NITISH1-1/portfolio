@@ -9,6 +9,8 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import {InputTextModule} from 'primeng/inputtext';
 import { JourneyModule } from './journey/journey.module';
 import { NavbarComponent } from './navbar/navbar.component';
+import {TooltipModule} from 'primeng/tooltip';
+import { BlogComponent } from './blogs/blog.component';
 
 
 @NgModule({
@@ -16,7 +18,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     AppComponent,
     HomeComponent,
     AboutComponent,
-    NavbarComponent
+    NavbarComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +27,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     ReactiveFormsModule,
     FormsModule,
     InputTextModule,
-    JourneyModule
+    JourneyModule,
+    TooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]

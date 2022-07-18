@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { TOOLTIP_TEXTS } from '../constants/constant';
 
 @Component({
   selector: 'app-navbar',
@@ -7,6 +8,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
+  tooltipTexts:any = TOOLTIP_TEXTS;
 
   constructor(
     private route: Router
@@ -16,7 +18,7 @@ export class NavbarComponent implements OnInit {
   }
 
   routeTo(module:string){
-    this.route.navigateByUrl('journey');
+    this.route.navigateByUrl(module);
   }
 
 }

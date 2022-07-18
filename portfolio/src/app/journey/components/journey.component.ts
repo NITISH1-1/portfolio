@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { JOURNEY_TEXTS } from "../../constants/constant";
 
 @Component({
   selector: 'my-journey',
@@ -7,5 +8,5 @@ import { Component } from "@angular/core";
 })
 
 export class JourneyComponent {
-  
+  journeyTexts:any = JOURNEY_TEXTS;
 }
